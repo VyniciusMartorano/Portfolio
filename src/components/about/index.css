@@ -1,0 +1,24 @@
+
+
+section#about-me {
+    background-color: rgb(255, 239, 239);
+    margin-top: 14rem;
+    padding: 5rem;
+    text-align: justify;
+}
+
+#about {
+    color: black;
+}
+
+
+.text-about {
+    color: black;
+    letter-spacing: 1px;
+    margin-top: 1rem;
+}
+
+
+#container-text-about {
+    margin-top: 3rem;
+}

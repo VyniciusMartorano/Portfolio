@@ -36,7 +36,7 @@ const Home = () => {
                 
             </div>
             <div id="content-right">
-                <div class="content-image">
+                <div class="content-image" >
                     <img 
                         src={minhaImagem} 
                         alt="" 
