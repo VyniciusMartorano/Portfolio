@@ -38,17 +38,17 @@ div.card {
 #instagram:hover {
     
     background-image: linear-gradient(white,
-    rgba(212, 99, 159, 0.774),rgba(179, 58, 168, 0.781),rgba(136, 69, 199, 0.74));
+    rgba(209, 128, 171, 0.793),rgba(183, 52, 172, 0.781),rgba(136, 69, 199, 0.74));
 }
 
 #email:hover{
     background-image: linear-gradient(
-        white,rgb(126, 243, 190),rgb(64, 206, 199),rgb(8, 169, 250)
+        white,rgb(126, 243, 190),rgb(64, 206, 199),rgb(2, 90, 134)
     );
 }
 
 #linkedin:hover {
-    background-image: linear-gradient(white,rgb(86, 157, 179),rgb(60, 133, 153),rgba(5, 118, 179, 0.87));
+    background-image: linear-gradient(white,rgb(86, 157, 179),rgb(60, 133, 153),rgba(3, 102, 155, 0.87));
 }
 
 #github:hover {
@@ -81,7 +81,7 @@ h1.title-name-card {
     font-size: 25px;
     letter-spacing: 1px;
     text-align: center;
-    text-shadow: 0.2px 2px 2px rgba(0, 0, 0, 0.308);
+    text-shadow: 0.2px 2px 2px rgba(0, 0, 0, 0.077);
 }
 
 .button {
