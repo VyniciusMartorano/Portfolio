@@ -11,6 +11,12 @@ body {
     padding-bottom: 100px;
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+:target {
+scroll-margin-top: .8em;
+}
 
 .topic-title {
     font-size: 2em;

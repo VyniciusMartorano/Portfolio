@@ -9,7 +9,7 @@ import logoInstagram from './../../assets/instagram_logo.png'
 const Contact = () => {
     return (
         <div id="contact-container">
-            <h3  className="topic-title">Contact</h3>
+            <h3  className="topic-title" id="contact">Contact</h3>
             <section class="container">
                 <div id="left-subsection" class="subsection">
                     <div id="instagram" class="card">
@@ -60,7 +60,7 @@ const Contact = () => {
                     </div>
                 </div>
 
-                <div class="subsection">
+                <div id="right-subsection" class="subsection">
                     <div id="linkedin" class="card">
                         <div class="logo">
                             <img src={logoLinkedin} alt=""/>

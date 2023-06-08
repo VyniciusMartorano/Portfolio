@@ -6,6 +6,7 @@ import Home from './components/home/Home'
 import './app.css'
 import About from './components/about/About'
 import Contact from './components/contact/Contact'
+import Skills from './components/skills/Skills'
 
 function App() {
 
@@ -14,9 +15,10 @@ function App() {
       <header>
         <NavBar /> 
       </header>
-        <Home />
-        <About />
-        <Contact />
+      <Skills />
+      <Home />
+      <About />
+      <Contact />
     </BrowserRouter>
   )
 }
