@@ -16,7 +16,7 @@ const Home = () => {
                 </div>
                 <div id="introduction-div-text">
                     <h1>
-                        Vynicius Martorano
+                        Vynicius Martorano 
                     </h1>
                     <h2>
                         Software Developer
