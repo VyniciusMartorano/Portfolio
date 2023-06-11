@@ -10,49 +10,49 @@ const Contact = () => {
     return (
         <div id="contact-container">
             <h3  className="topic-title" id="contact">Contact</h3>
-            <section class="container">
-                <div id="left-subsection" class="subsection">
-                    <div id="instagram" class="card">
-                        <div class="logo">
+            <section className="container">
+                <div id="left-subsection" className="subsection">
+                    <div id="instagram" className="card">
+                        <div className="logo">
                             <img src={logoInstagram} alt=""/>
                         </div>
-                        <div class="title">
-                            <h1 class="title-name-card">
+                        <div className="title">
+                            <h1 className="title-name-card">
                                 Instagram
                             </h1>
                         </div>
-                        <div class="text-card">
+                        <div className="text-card">
                             <span id="text">
                                 Click on the button to be redirected to my personal account
                             </span>
                         </div>
-                        <div class="final-button">
+                        <div className="final-button">
                             <a href="https://www.instagram.com/vyniciusmartorano/" target="_blank">
-                                <button id="button-instagram" class="button">
+                                <button id="button-instagram" className="button">
                                     View more
                                 </button>
                             </a>
                         </div>
                     </div>
-                    <div id="email" class="card">
-                        <div class="logo">
+                    <div id="email" className="card">
+                        <div className="logo">
                             <img src={logoEmail} alt=""/>
                         </div>
-                        <div class="title">
-                            <h1 class="title-name-card">
+                        <div className="title">
+                            <h1 className="title-name-card">
                                 E-mail
                             </h1>
                         </div>
-                        <div class="text-card">
+                        <div className="text-card">
                             <span id="text">
                                 Click on the button to send a email for me
                                 <br/>
                                 <br/>
                             </span>
                         </div>
-                        <div class="final-button">
+                        <div className="final-button">
                             <a href="mailto:vyniciussalusto@gmail.com" target="_blank">
-                                <button id="button-email" class="button">
+                                <button id="button-email" className="button">
                                     Send email
                                 </button>
                             </a>
@@ -60,46 +60,46 @@ const Contact = () => {
                     </div>
                 </div>
 
-                <div id="right-subsection" class="subsection">
-                    <div id="linkedin" class="card">
-                        <div class="logo">
+                <div id="right-subsection" className="subsection">
+                    <div id="linkedin" className="card">
+                        <div className="logo">
                             <img src={logoLinkedin} alt=""/>
                         </div>
-                        <div class="title">
-                            <h1 class="title-name-card">
+                        <div className="title">
+                            <h1 className="title-name-card">
                                 Linkedin
                             </h1>
                         </div>
-                        <div class="text-card">
+                        <div className="text-card">
                             <span id="text">
                                 Click on the button to be redirected to my personal account
                             </span>
                         </div>
-                        <div class="final-button">
+                        <div className="final-button">
                             <a href="https://www.linkedin.com/in/vynicius-martorano-2b2597213" target="_blank">
-                                <button id="button-linkedin" class="button">
+                                <button id="button-linkedin" className="button">
                                     View more
                                 </button>
                             </a>
                         </div>
                     </div>
-                    <div id="github" class="card">
-                        <div class="logo">
+                    <div id="github" className="card">
+                        <div className="logo">
                             <img src={logoGitHub} alt=""/>
                         </div>
-                        <div class="title">
-                            <h1 class="title-name-card">
+                        <div className="title">
+                            <h1 className="title-name-card">
                                 GitHub
                             </h1>
                         </div>
-                        <div class="text-card">
+                        <div className="text-card">
                             <span id="text">
                                 Click on the button to be redirected to my personal account
                             </span>
                         </div>
-                        <div class="final-button">
+                        <div className="final-button">
                             <a href="https://github.com/VyniciusMartorano" target="_blank">
-                                <button id="button-github" class="button">
+                                <button id="button-github" className="button">
                                     View more
                                 </button>
                             </a>

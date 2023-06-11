@@ -7,7 +7,7 @@ import minhaImagem from './../../assets/fotoperfil.jpg'
 const Home = () => {
 
     return (
-        <div class="content">
+        <div className="content">
             <div id="content-left">
                 <div id="hello-text">
                     <p id="text">
@@ -24,23 +24,23 @@ const Home = () => {
                 </div>
                 <div id="infos">
                     <p id="email">
-                        <i class="fa-solid fa-envelope mr-2"></i><span>vyniciussalusto@gmail.com</span>
+                        <i className="fa-solid fa-envelope mr-2"></i><span>vyniciussalusto@gmail.com</span>
                     </p>
                     <p id="fone">
-                        <i class="fa-solid fa-phone mr-2"></i><span>+ 55 084 99404 1304</span>
+                        <i className="fa-solid fa-phone mr-2"></i><span>+ 55 084 99404 1304</span>
                     </p>
                     <p id="local">
-                        <i class="fa-solid fa-location-dot mr-2"></i><span>Natal, Rio Grande Do Norte, Brazil</span>
+                        <i className="fa-solid fa-location-dot mr-2"></i><span>Natal, Rio Grande Do Norte, Brazil</span>
                     </p>
                 </div>
                 
             </div>
             <div id="content-right">
-                <div class="content-image" >
+                <div className="content-image" >
                     <img 
                         src={minhaImagem} 
                         alt="" 
-                        class="imagem"
+                        className="imagem"
                         width={200}
                         height={200}
                     />
