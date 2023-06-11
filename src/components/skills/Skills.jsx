@@ -34,9 +34,9 @@ const logos = [
     { icon: react, label: 'React' },
     { icon: redux, label: 'Redux' },
     { icon: bootstrap, label: 'Bootstrap' },
-    { icon: selenium, label: 'Selenium' },
     { icon: html, label: 'HTML' },
     { icon: css, label: 'CSS' },
+    { icon: selenium, label: 'Selenium' },
 ]
 
 
