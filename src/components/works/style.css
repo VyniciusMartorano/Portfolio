@@ -1,6 +1,6 @@
-#works {
-    background-color: rgb(255, 239, 239) !important;
-
+#work {
+    background-color:   rgb(255, 239, 239) !important;
+    
 }
 
 #work-title {
@@ -10,6 +10,4 @@
 
 #works-container {
     display: flex;
-    
-    margin-top: 3rem;
 }

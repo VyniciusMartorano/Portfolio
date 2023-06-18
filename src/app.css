@@ -28,3 +28,24 @@ scroll-margin-top: .8em;
 }
 
 
+/* Estilizando a barra de rolagem */
+::-webkit-scrollbar {
+    width: 10px; /* Largura da barra de rolagem */
+  }
+  
+  /* Estilizando a área de fundo da barra de rolagem */
+  ::-webkit-scrollbar-track {
+    background-color: #f1f1f1; /* Cor de fundo da área de track */
+  }
+  
+  /* Estilizando o polegar da barra de rolagem */
+  ::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    background-color: #585656; /* Cor do polegar */
+  }
+  
+  /* Estilizando o botão da barra de rolagem */
+  ::-webkit-scrollbar-button {
+    background-color: #ccc; /* Cor do botão */
+  }
+  

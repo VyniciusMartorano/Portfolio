@@ -1,16 +1,16 @@
 import React from "react"
 import './style.css'
 
+import Carousel from "./Carousel/Carousel"
+
 
 const Works = () => {
 
     return (
-        <section id="works">
+        <section id="work">
             <h3 className="topic-title" id="work-title">Works</h3>
             <div id="works-container">
-                <div>
-                    
-                </div>
+                <Carousel />
             </div>
         </section>
     )
