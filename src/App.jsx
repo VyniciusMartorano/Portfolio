@@ -5,6 +5,7 @@ import './app.css'
 import About from './components/about/About'
 import Contact from './components/contact/Contact'
 import Skills from './components/skills/Skills'
+import Works from './components/works/Works'
 
 
 
@@ -18,6 +19,7 @@ function App() {
         <Home />
         <About />
         <Skills />
+        <Works />
         <Contact />
       </div>
   )

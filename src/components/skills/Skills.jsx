@@ -17,6 +17,8 @@ import sqlserver from './../../assets/svgs/sql-server.svg'
 import html from './../../assets/svgs/html.svg'
 import css from './../../assets/svgs/css.svg'
 import delphi from './../../assets/svgs/delphi.svg'
+import git from './../../assets/svgs/git.svg'
+import docker from './../../assets/svgs/docker.svg'
 
 
 const logos = [
@@ -37,6 +39,8 @@ const logos = [
     { icon: html, label: 'HTML' },
     { icon: css, label: 'CSS' },
     { icon: selenium, label: 'Selenium' },
+    { icon: git, label: 'Git' },
+    { icon: docker, label: 'Docker' },
 ]
 
 
