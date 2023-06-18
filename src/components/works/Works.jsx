@@ -8,7 +8,7 @@ const Works = () => {
 
     return (
         <section id="work">
-            <h3 className="topic-title" id="work-title">Works</h3>
+            <h3 className="topic-title" id="work-title">Work</h3>
             <div id="works-container">
                 <Carousel />
             </div>

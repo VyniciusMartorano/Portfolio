@@ -54,7 +54,7 @@
   transform-origin: center left;
   position: relative;
   opacity: 0.8;
-  box-shadow: rgba(0, 0, 0, 0.455) 1px 1px 8px;
+  box-shadow: rgba(0, 0, 0, 0.8) 1px 1px 8px;
 }
 
 .carousel-item:hover ~ .carousel-item {
