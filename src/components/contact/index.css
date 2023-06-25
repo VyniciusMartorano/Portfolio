@@ -173,6 +173,7 @@ div.footer{
 }
 @media screen and (max-width: 690px) {
     .card {
+        display: none !important;
         height: 10rem !important;
         width: 10rem !important;
         align-items: center;

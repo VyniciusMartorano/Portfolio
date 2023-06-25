@@ -32,6 +32,9 @@ const Home = () => {
                     <p id="local">
                         <i className="fa-solid fa-location-dot mr-2"></i><span>Natal, Rio Grande Do Norte, Brazil</span>
                     </p>
+                    <p id="local">
+                        <i className="fa-solid fa-location-dot mr-2"></i><span>Natal, Rio Grande Do Norte, Brazil</span>
+                    </p>
                 </div>
                 
             </div>

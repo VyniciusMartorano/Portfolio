@@ -8,9 +8,9 @@ const About = () => {
         <section id="about-me">
             <h3 id="about" className="topic-title">About Me</h3>
             <div id="container-text-about">
-                <p className="text-about">Olá! Seja bem-vindo ao meu portfólio, um espaço onde compartilho alguns dos projetos que tive a oportunidade de desenvolver ao longo da minha carreira como desenvolvedor. Aqui, você encontrará uma amostra do meu trabalho e poderá explorar diferentes soluções que criei para enfrentar desafios do mundo digital.</p>
-                <p className="text-about">Minha jornada nesse fascinante campo da programação teve início em 2020, quando, de forma voluntária, desenvolvi um aplicativo desktop para uma pizzaria local. O objetivo era otimizar os processos internos do estabelecimento, tornando-os mais eficientes e ágeis. Essa experiência foi um marco transformador, pois pude vivenciar em primeira mão o impacto positivo que a tecnologia pode trazer para os negócios.</p>
-                <p className="text-about">A partir desse momento, decidi dedicar minha vida profissional ao desenvolvimento de software, buscando criar soluções que facilitem o dia a dia das pessoas e contribuam para a simplificação de tarefas complexas. Minha motivação é poder reduzir esforços e fornecer ferramentas que impulsionem o crescimento e o sucesso das pessoas.</p>
+                <p className="text-about">Hello! Welcome to my portfolio, a space where I share some of the projects I've had the opportunity to develop throughout my career as a developer. Here, you will find a sample of my work and be able to explore different solutions I've created to tackle challenges in the digital world.</p>
+                <p className="text-about">My journey in this fascinating field of programming began in 2020 when I voluntarily developed a desktop application for a local pizzeria. The goal was to optimize the establishment's internal processes, making them more efficient and agile. This experience was a transformative milestone as I was able to firsthand experience the positive impact that technology can bring to businesses.</p>
+                <p className="text-about">From that moment on, I decided to dedicate my professional life to software development, aiming to create solutions that streamline people's daily lives and contribute to the simplification of complex tasks. My motivation is to reduce efforts and provide tools that drive the growth and success of individuals.</p>
             </div>
         </section>
     )
