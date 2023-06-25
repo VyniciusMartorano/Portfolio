@@ -91,6 +91,16 @@ a.link-nav {
 
 
 
+@media screen and (max-width:400px) {
+
+    a.link-nav {
+        font-size: 1rem;
+    }
+
+}
+
+
+
 
 
 

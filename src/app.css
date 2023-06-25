@@ -39,13 +39,15 @@ scroll-margin-top: .8em;
   }
   
   /* Estilizando o polegar da barra de rolagem */
-  ::-webkit-scrollbar-thumb {
+  ::-webkit-scrollbar-thumb:vertical {
     border-radius: 8px;
     background-color: #585656; /* Cor do polegar */
   }
+  ::-webkit-scrollbar-thumb:horizontal {
+    border-radius: 8px;
+    height: 1px !important;
+    background-color: #585656; /* Cor do polegar */
+  }
+
   
   /* Estilizando o botão da barra de rolagem */
-  ::-webkit-scrollbar-button {
-    background-color: #ccc; /* Cor do botão */
-  }
-  
