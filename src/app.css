@@ -35,7 +35,7 @@ scroll-margin-top: .8em;
   
   /* Estilizando a área de fundo da barra de rolagem */
   ::-webkit-scrollbar-track {
-    background-color: #f1f1f1; /* Cor de fundo da área de track */
+    background-color: #f1f1f100; /* Cor de fundo da área de track */
   }
   
   /* Estilizando o polegar da barra de rolagem */

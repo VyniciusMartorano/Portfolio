@@ -89,6 +89,7 @@ p#email {
     display: flex;
     width: max-content;
     font-weight: 400;
+    margin-top: 0.9rem;
 }
 
 p#fone {
@@ -104,7 +105,40 @@ p#local {
     margin-top: 0.9rem;
     font-weight: 400;
 }
+p#linkedin {
+    display: flex;
+    width: max-content;
+    margin-top: 0.9rem;
+    font-weight: 400;
+}
+p#instagram {
+    display: flex;
+    width: max-content;
+    margin-top: 0.9rem;
+    font-weight: 400;
+}
 
+p#github {
+    display: flex;
+    width: max-content;
+    font-weight: 400;
+}
+
+.centralizar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.link-home {
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+}
+
+.link-home:hover {
+    color: rgb(171, 169, 169);
+}
 
 
 

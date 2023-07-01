@@ -17,9 +17,9 @@ function App() {
           <NavBar />
         </header>
         <Home />
-        <About />
-        <Skills />
         <Works />
+        <Skills />
+        <About />
       </div>
   )
 }

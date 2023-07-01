@@ -23,17 +23,26 @@ const Home = () => {
                     </h2>
                 </div>
                 <div id="infos">
+                    <p id="github">
+                        <div className="centralizar"><i className="fa-brands   fa-github not-select mr-2"></i></div>
+                        <a 
+                        href="https://github.com/VyniciusMartorano" target="_blank" className="link-home">
+                        <span>Vynicius Martorano</span></a>
+                    </p> 
                     <p id="email">
-                        <i className="fa-solid fa-envelope mr-2"></i><span>vyniciussalusto@gmail.com</span>
-                    </p>
+                        <div className="centralizar"><i className="fa-solid fa-envelope not-select mr-2"></i></div><span>vyniciussalusto@gmail.com</span>
+                    </p> 
                     <p id="fone">
-                        <i className="fa-solid fa-phone mr-2"></i><span>+ 55 084 99404 1304</span>
+                        <div className="centralizar"><i className="fa-solid fa-phone not-select mr-2"></i></div><span>+ 55 084 99404 1304</span>
+                    </p>
+                    <p id="linkedin">
+                        <div className="centralizar"><i className="fa-brands fa-linkedin-in not-select mr-2"></i></div><a className="link-home"
+                        href="https://linkedin.com/in/vynicius-martorano-2b2597213"
+                        target="_blank"
+                        ><span>Vynicius Martorano</span></a>
                     </p>
                     <p id="local">
-                        <i className="fa-solid fa-location-dot mr-2"></i><span>Natal, Rio Grande Do Norte, Brazil</span>
-                    </p>
-                    <p id="local">
-                        <i className="fa-solid fa-location-dot mr-2"></i><span>Natal, Rio Grande Do Norte, Brazil</span>
+                        <div className="centralizar"><i className="fa-solid not-select fa-location-dot mr-2"></i></div><span>Natal, Rio Grande Do Norte, Brazil</span>
                     </p>
                 </div>
                 
