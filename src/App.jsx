@@ -3,16 +3,14 @@ import NavBar from './components/navbar/NavBar'
 import Home from './components/home/Home'
 import './app.css'
 import About from './components/about/About'
-import Contact from './components/contact/Contact'
 import Skills from './components/skills/Skills'
 import Works from './components/works/Works'
+import { Routes, BrowserRouter, Route } from "react-router-dom"
+import DetailProject from './components/detailproject/DetailProject'
 
-
-
-function App() {
-  
+const MainPage = () => {
   return (
-      <div>
+    <div>
         <header>
           <NavBar />
         </header>
@@ -21,6 +19,20 @@ function App() {
         <Skills />
         <About />
       </div>
+  )
+}
+
+
+function App() {
+  
+  return (
+      
+      <BrowserRouter>
+          <Routes>
+              <Route path="/" element={<MainPage />} />
+              <Route path="/detailproject/:nameproject" element={<DetailProject />} />
+          </Routes>
+      </BrowserRouter>
   )
 }
 

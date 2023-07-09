@@ -34,31 +34,7 @@ div.card {
     border-radius: 9px;
     box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
 }
-/* 
-#instagram:hover {
-    
-    background-image: linear-gradient(white,
-    rgba(209, 128, 171, 0.793),rgba(183, 52, 172, 0.781),rgba(136, 69, 199, 0.74));
-}
 
-#email:hover{
-    background-image: linear-gradient(
-        white,rgb(126, 243, 190),rgb(64, 206, 199),rgb(2, 90, 134)
-    );
-}
-
-#linkedin:hover {
-    background-image: linear-gradient(white,rgb(86, 157, 179),rgb(60, 133, 153),rgba(3, 102, 155, 0.87));
-}
-
-#github:hover {
-    background-image: linear-gradient(
-        white,
-        rgb(201, 141, 245),
-        rgb(175, 85, 241),
-        rgb(136, 0, 234)
-    );
-} */
 
 div.card:first-child {
     margin-left: 0px;
